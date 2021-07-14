@@ -1,0 +1,6 @@
+### Mandatory variables for the baseline ###
+account_id  = ""
+client      = ""
+environment = ""
+vpc_cidr    = ""
+account_type = ""
