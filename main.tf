@@ -14,6 +14,7 @@ module "alb" {
   target_groups = var.target_groups
   https_listeners = var.https_listeners
   http_tcp_listeners = var.http_tcp_listeners
+  security_groups = var.security_groups == [] ? [aws_security_group.allow_https.id] : var.security_groups
 }
 
 resource "aws_s3_bucket" "s3_alb_logs" {
