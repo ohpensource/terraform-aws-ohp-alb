@@ -28,7 +28,7 @@ variable "https_listeners"{
   default = []
 }
 
-variable "http_listeners"{
+variable "http_tcp_listeners"{
   description = "(Required) List of http listeners"
   default = []
 }

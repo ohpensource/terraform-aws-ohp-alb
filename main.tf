@@ -11,10 +11,9 @@ module "alb" {
     bucket  = aws_s3_bucket.s3_alb_logs.bucket
     enabled = true
   }
-
   target_groups = var.target_groups
   https_listeners = var.https_listeners
-  http_tcp_listeners = var.http_listeners
+  http_tcp_listeners = var.http_tcp_listeners
 }
 
 resource "aws_s3_bucket" "s3_alb_logs" {
