@@ -3,6 +3,11 @@ variable "name" {
   default     = "main_alb"
 }
 
+variable "default_sg_name" {
+  description = "(Optional) name of the Security group of the Application Load Balancer in case no security group is defined"
+  default     = ""
+}
+
 variable "subnets_id" {
   description = "(Required) Id of the public subnet of the Application Load Balancer"
   default     = []

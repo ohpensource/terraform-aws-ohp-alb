@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow_https" {
-  name        = "allow_https"
+  name        = var.default_sg_name
   description = "Allow HTTPS inbound traffic"
   vpc_id      = var.vpc_id
 
