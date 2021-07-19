@@ -5,35 +5,40 @@ variable "name" {
 
 variable "subnets_id" {
   description = "(Required) Id of the public subnet of the Application Load Balancer"
-  default = []
+  default     = []
 }
 
 variable "vpc_id" {
   description = "(Required) Id of the VPC for the SG of the ALB"
-  default = ""
+  default     = ""
 }
 
 variable "internal" {
   description = "(Required) Whether the application load balancer is internal "
-  default = false
+  default     = false
 }
 
-variable "security_groups"{
+variable "security_groups" {
   description = "(Required) Security groups associated with the ALB"
-  default = []
+  default     = []
 }
 
-variable "https_listeners"{
+variable "https_listeners" {
   description = "(Required) List of https listeners"
-  default = []
+  default     = []
 }
 
-variable "http_tcp_listeners"{
+variable "http_tcp_listeners" {
   description = "(Required) List of http listeners"
-  default = []
+  default     = []
 }
 
-variable "target_groups"{
+variable "target_groups" {
   description = "(Required) List of target groups"
-  default = []
+  default     = []
+}
+
+variable "bucket_name" {
+  description = "(Required) List of target groups"
+  default     = ""
 }
