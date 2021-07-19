@@ -3,11 +3,6 @@ variable "name" {
   default     = "main_alb"
 }
 
-variable "prefix" {
-  description = "(Required) name of the Application Load Balancer"
-  default     = ""
-}
-
 variable "subnets_id" {
   description = "(Required) Id of the public subnet of the Application Load Balancer"
   default     = []
