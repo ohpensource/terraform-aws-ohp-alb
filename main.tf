@@ -6,7 +6,7 @@ module "alb" {
   vpc_id                     = var.vpc_id
   subnets                    = var.subnets_id
   enable_deletion_protection = true
-  access_logs {
+  access_logs = {
     bucket  = var.bucket_name
     enabled = true
   }
