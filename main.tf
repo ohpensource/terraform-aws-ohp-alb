@@ -2,7 +2,7 @@ module "alb" {
   source                     = "terraform-aws-modules/alb/aws"
   version                    = "~> 6.0"
   name                       = var.name
-  name_prefix                = var.name_prefix
+  name_prefix                = var.prefix
   load_balancer_type         = "application"
   vpc_id                     = var.vpc_id
   subnets                    = var.subnets_id

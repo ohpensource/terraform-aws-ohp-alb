@@ -3,7 +3,7 @@ variable "name" {
   default     = "main_alb"
 }
 
-variable "name_prefix" {
+variable "prefix" {
   description = "(Required) name of the Application Load Balancer"
   default     = ""
 }
