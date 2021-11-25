@@ -1,4 +1,1 @@
 
-locals {
-  dummy = var.dummy
-}
