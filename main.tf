@@ -14,7 +14,7 @@ module "alb" {
   target_groups                    = var.target_groups
   https_listeners                  = var.https_listeners
   http_tcp_listeners               = var.http_tcp_listeners
-  security_groups                  = var.security_groups == [] ? [aws_security_group.allow_https.id] : var.security_groups
+  security_groups                  = var.security_groups
   drop_invalid_header_fields       = var.drop_invalid_header_fields
   http_tcp_listeners_tags          = var.http_tcp_listeners_tags
   enable_cross_zone_load_balancing = var.enable_cross_zone_load_balancing

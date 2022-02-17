@@ -42,7 +42,6 @@ Creates an Application Load Balancer. Requires additional work on the module to 
 
 | Name | Type |
 |------|------|
-| [aws_security_group.allow_https](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
 | [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 | [aws_region.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) | data source |
 

@@ -20,7 +20,6 @@ variable "vpc_id" {
 
 variable "security_groups" {
   description = "(Required) Security groups associated with the ALB"
-  default     = []
 }
 
 variable "https_listeners" {
