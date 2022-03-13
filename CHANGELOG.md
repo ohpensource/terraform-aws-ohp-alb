@@ -1,3 +1,9 @@
+# :confetti_ball: 1.0.11 (2022-03-13T13:33:27.387Z)
+- - -
+## :newspaper: Others
+* minor version upgrade
+- - -
+- - -
 # :confetti_ball: NaN.0.11 (2022-03-13T13:30:56.467Z)
 - - -
 ## :newspaper: Others
