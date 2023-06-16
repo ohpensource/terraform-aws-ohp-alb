@@ -1,6 +1,6 @@
 module "alb" {
   source                     = "terraform-aws-modules/alb/aws"
-  version                    = "~> 6.0"
+  version                    = "~> 8.7"
   create_lb                  = var.create_lb
   name                       = var.name
   load_balancer_type         = var.load_balancer_type
